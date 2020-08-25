@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-landingpage",
+  "version": "1.0.0",
+  "description": "Portfolio-LandingPage",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hachelbushy/Portfolio-LandingPage.git"
+  },
+  "author": "Mateusz Zakrzewski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hachelbushy/Portfolio-LandingPage/issues"
+  },
+  "homepage": "https://github.com/Hachelbushy/Portfolio-LandingPage#readme"
+}
