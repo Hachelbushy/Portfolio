@@ -23,6 +23,7 @@
 .menu {
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   opacity: 0.9;
   visibility: hidden; }
@@ -146,7 +147,6 @@ header {
   color: #008B8B; }
 
 main {
-  padding: 4rem;
   min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem; }
@@ -181,7 +181,7 @@ main {
     grid-area: job3; }
   .about-info .job {
     background: #607386;
-    padding: 0.5rem;
+    padding: 10rem;
     border-bottom: #008B8B 5px solid; }
 
 .projects {
